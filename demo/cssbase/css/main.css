@@ -1,0 +1,85 @@
+#div0{
+
+}
+#div1{
+    width: 100px;
+    height: 100px;
+    border: solid 1px gold;
+
+}
+#div1 p{
+    color: brown;
+    font-size: 25px;
+    font-weight: 100;
+    font-family: "微软雅黑";
+
+}
+#div2{
+    width: 200px;
+    height: 200px;
+    border:solid 1px gold;
+    text-align: center;
+    line-height:200px ;
+}
+#div2 p{
+    color: aqua;
+
+    text-decoration:line-through;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+}
+#div3{
+width: 300px;
+    height: 300px;
+    border-style:solid;
+    border-width: 5px;
+    border-color: green;
+    background: blue url("../image/1.jpg") no-repeat fixed 10px 10px;
+    overflow: auto;
+}
+#div4{
+    
+}
+.c{
+    width: 300px;
+    height: 300px;
+    border: solid 5px greenyellow;
+
+}
+.c1{
+    display:none;
+}
+.c2{
+    visibility: hidden;
+}
+#div5 p{
+    cursor: pointer;
+
+}
+#div6 li{
+    list-style-type: circle;
+    list-style-image: url("../image/.jpg");
+}
+#div6 img{
+    width: 100px;
+    height: 100px;
+    vertical-align: text-top;
+}
+#div6 a:link{ color: blue ;font-size: 30px }
+#div6 a:visited{  color: black }
+#div6 a:hover{ color: aqua }
+#div6 a:active{  color: brown}
+#div7 table{
+    width: 300px;
+    height: 300px;
+    border-collapse: collapse;
+}
+#div7 th,td{
+    border: solid 1px green;
+    text-align: center;
+}
+#div8{
+    height: 300px;
+    width: 300px;
+    border: solid 1px black;
+}
