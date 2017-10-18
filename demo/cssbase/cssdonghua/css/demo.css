@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#d1{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    border: solid 1px red;
+    background-image: url("../image/1.jpg");
+    background-repeat: no-repeat;
+    -webkit-animation:mymove 5s infinite; /*Safari and Chrome*/
+}
+
+@keyframes mymove
+{
+    /*from {left:0px;}*/
+    /*to {left:200px;}*/
+    0%{
+        -webkit-transform: rotateY(0deg);
+
+    }
+   50%{
+        -webkit-transform: rotateY(180deg);
+
+    }
+   100%{
+          -webkit-transform: rotateY(360deg);
+
+      }
+}

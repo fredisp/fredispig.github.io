@@ -34,7 +34,7 @@ width: 300px;
     border-style:solid;
     border-width: 5px;
     border-color: green;
-    background: blue url("../image/1.jpg") no-repeat fixed 10px 10px;
+    background: blue url("../cssposition/image/1.jpg") no-repeat fixed 10px 10px;
     overflow: auto;
 }
 #div4{
