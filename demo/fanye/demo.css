@@ -1,0 +1,7 @@
+.page a:hover{
+    border:1px solid #428bca;
+}
+.page .current{
+    display: inline-block;
+    color: #;
+}
